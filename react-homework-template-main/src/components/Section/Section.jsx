@@ -1,4 +1,3 @@
-
 export const Section = ({children, title}) => {
    return(
       <section>
