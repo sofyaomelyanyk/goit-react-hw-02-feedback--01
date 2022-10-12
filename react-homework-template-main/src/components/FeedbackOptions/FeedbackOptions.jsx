@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const FeedbackOptions = ({ onClick }) =>  {
    
       return(
@@ -15,4 +17,9 @@ export const FeedbackOptions = ({ onClick }) =>  {
       )
    
 }
+
+FeedbackOptions.propTypes = {
+   onClick: PropTypes.func.isRequired,
+} 
+
 
